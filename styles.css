@@ -135,6 +135,11 @@ section {
     height: 1.75rem;
 }
 
+.label-holder input:focus {
+    border: 1px solid lightskyblue;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
 form button {
     background-color: #596d48;
     width: 12rem;
@@ -152,4 +157,8 @@ form button {
     height: 10rem;
     padding-left: 2rem;
     font-size: 0.8rem;
+}
+
+#password:invalid {
+    border: 1px solid red;
 }
