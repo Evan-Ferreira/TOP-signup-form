@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.first-cont {
+    background-image: url(./assets/images/leaves.jpg);
+    width: 33%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-cont {
+    height: 100%;
+}
